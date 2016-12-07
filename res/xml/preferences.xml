@@ -1,0 +1,63 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="PREFSMAIN">
+
+    <PreferenceCategory
+            android:title="Erweiterte Einstellungen">
+
+<!--         <CheckBoxPreference -->
+<!--                 android:key="checkbox_preference" -->
+<!--                 android:title="Strahlungsantrieb" -->
+<!--                 android:summary="Strahlungsantrieb" /> -->
+
+        <EditTextPreference
+                android:key="ip"
+                android:title="Server-Adresse"
+                android:summary="IP des OpenResKit-Hubs festlegen"
+				 />
+
+        <ListPreference
+                android:key="fueltype"
+                android:title="Treibstoff festlegen"
+                android:summary="Hier können Sie den Treibstoff ihres Fahrzeugs festlegen."
+                android:entries="@array/fueltypes_array"
+                android:entryValues="@array/fueltypesvalues_array"
+                />
+<!--         <ListPreference -->
+<!--                 android:key="cartype" -->
+<!--                 android:title="Fahrzeug festlegen" -->
+<!--                 android:summary="Hier können Sie ihr Fahrzeug aus einer Liste auswählen." -->
+<!--                 android:entries="@array/cartypes_array" -->
+<!--                 android:entryValues="@array/cartypesvalues_array" -->
+<!--                 /> -->
+<!--                 android:entries="@array/entries_list_preference" -->
+<!--                 android:entryValues="@array/entryvalues_list_preference" -->
+<!--                 android:dialogTitle="@string/dialog_title_list_preference" /> -->
+
+<!--         <EditTextPreference -->
+<!--                 android:key="gps_preference" -->
+<!--                 android:title="Standortfavoriten festlegen" -->
+<!--                 android:summary="Favoriten für die Auswahl von Standorten" -->
+<!-- 				 /> -->
+
+<!--         <PreferenceScreen -->
+<!--                 android:title="Standorteinstellungen" -->
+<!--                 android:summary="Standorteinstellungen"> -->
+
+<!--             <intent android:action="android.intent.action.VIEW" -->
+<!--                     android:data="http://www.android.com" /> -->
+
+
+<!--         </PreferenceScreen> -->
+
+
+<!--         <CheckBoxPreference -->
+<!--                 android:key="parent_checkbox_preference" -->
+<!--                 android:title="Kartenansicht umschalten" -->
+<!--                 android:summary="Kartenansicht umschalten" /> -->
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

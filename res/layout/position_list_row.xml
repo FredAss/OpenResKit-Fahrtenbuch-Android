@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="#FFFFFF"
+     android:paddingBottom="10dp"
+ >
+
+    <ImageView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+	android:paddingLeft="10dip"
+	android:paddingTop="10dip"
+	android:paddingBottom="10dip"
+	android:layout_marginTop="10dp"
+	android:layout_centerVertical="true"
+    android:id="@+id/position_img"
+    />
+    
+    <TextView
+    android:id="@+id/datetxt"
+   	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:layout_toRightOf="@+id/position_img"
+	android:paddingLeft="15dip"
+    android:paddingTop="10dip"
+	android:textColor="#000000"/>
+        
+    <TextView
+    android:id="@+id/starttxt"
+   	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:layout_toRightOf="@+id/position_img"	
+	android:paddingLeft="15dip"
+    android:paddingTop="5dip"
+    android:layout_below="@+id/datetxt"
+	android:textColor="#000000"/>
+    
+   	<ImageView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:id="@+id/arrowcf_img" 
+	android:layout_toRightOf="@+id/starttxt"
+	android:layout_below="@+id/datetxt"
+    android:paddingTop="5dip"
+    android:paddingLeft="10dip"/>
+    
+   <TextView
+    android:id="@+id/endtxt"
+   	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:layout_below="@+id/starttxt"
+	android:layout_marginLeft="5dp"
+	android:layout_alignLeft="@+id/starttxt"
+	android:paddingLeft="10dip"
+    android:paddingTop="5dip"
+
+	/>
+        <TextView
+    android:id="@+id/distance"
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:layout_gravity="right"
+    android:layout_alignParentRight="true"
+	android:paddingRight="10dip"
+    android:paddingTop="10dip"
+	/>
+     <TextView
+    android:id="@+id/calculation"
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:layout_gravity="right"
+    android:layout_alignParentRight="true"
+	android:layout_below="@+id/distance"
+	android:paddingRight="10dip"
+	android:paddingTop="3dip"
+	/>
+   <TextView
+    android:id="@+id/calculation2"
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:layout_gravity="right"
+    android:layout_alignParentRight="true"
+	android:layout_below="@+id/calculation"
+	android:paddingRight="10dip"
+	android:text="CO2-eq"
+	android:paddingBottom="3dip"
+	/>
+     
+
+
+</RelativeLayout
+        >

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/showPrefsDialog"
+        android:title="Einstellungen"
+        android:showAsAction="never"  />
+    <item android:id="@+id/startUpload"
+        android:title="Daten hochladen"
+        android:showAsAction="never"  />
+    <item android:id="@+id/startDownload"
+        android:title="Daten herunterladen"
+        android:showAsAction="never"  />
+    <item android:id="@+id/setFavorite"
+        android:title="Standortfavorit"
+        android:showAsAction="never"  />
+    <item android:id="@+id/deleteData"
+        android:title="Daten löschen"
+        android:showAsAction="never"/>
+	<item android:id="@+id/catalogUpdate"
+        android:title="Katalogaktualisierung"
+        android:showAsAction="never"/>    
+</menu>

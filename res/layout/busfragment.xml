@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+	<TextView
+        android:id="@+id/startlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/entryhead"
+        android:layout_below="@+id/toggleGroup"
+        android:layout_marginTop="22dp"
+        android:text="Start:" />
+
+    <AutoCompleteTextView
+        android:id="@+id/end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/entryhead"
+        android:layout_below="@+id/startlabel"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10" />
+    <TextView 
+        android:id="@+id/flighttypelabel"
+        android:text="Streckentyp: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/entryhead"
+        android:layout_below="@+id/endlabel"
+        android:visibility="gone"
+        />
+    
+    <ImageView
+        android:id="@+id/endSources"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   		android:layout_alignParentRight="true"
+		android:paddingRight="30dip"
+		android:layout_marginTop="30dp"
+        android:src="@android:drawable/ic_input_get"
+        android:layout_alignBottom="@+id/endlabel"
+               />
+
+    <TextView
+        android:id="@+id/endlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startlabel"
+        android:layout_alignLeft="@+id/startlabel"
+        android:layout_marginTop="30dp"
+        android:text="Ende:"
+		  />
+
+    <AutoCompleteTextView
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/startlabel"
+        android:layout_alignBottom="@+id/startlabel"
+        android:layout_toRightOf="@+id/entryhead"
+        android:layout_centerHorizontal="true"       
+        android:layout_marginLeft="15dp"
+        android:ems="10" />
+    
+    <ImageView
+        android:id="@+id/startSources"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   		android:layout_alignParentRight="true"
+		android:paddingRight="30dip"
+        android:layout_marginLeft="20dp"
+        android:src="@android:drawable/ic_input_get"
+        android:layout_alignBottom="@+id/start"
+               />
+    
+    <TextView 
+        android:id="@+id/labelDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/description"
+        android:layout_alignBottom="@+id/description"
+        android:layout_alignLeft="@+id/startlabel"
+        android:text="Beschreibung:" 
+        />
+    
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/endlabel"
+        android:layout_marginTop="20dp"
+        android:ems="10" />
+    
+    <TextView 
+        android:id="@+id/labelDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/date"
+        android:layout_alignBottom="@+id/date"
+        android:layout_alignLeft="@+id/startlabel"
+        android:text="Datum:" 
+        />
+    
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/description"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="number"  />
+    <ImageView
+        android:id="@+id/datepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   		android:layout_alignParentRight="true"
+		android:paddingRight="30dip"
+        android:src="@android:drawable/ic_menu_month"
+        android:layout_alignBottom="@+id/date"
+               />
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="Bestätigen"       
+        android:layout_below="@+id/datepicker"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/date"
+        />
+        
+    <Spinner
+        android:id="@+id/startTypesSpinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp" 
+        android:layout_toRightOf="@+id/start"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@+id/start"
+        />
+        <Spinner
+        android:id="@+id/endTypesSpinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp" 
+        android:layout_toRightOf="@+id/end"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@+id/end"
+        />
+    </RelativeLayout>

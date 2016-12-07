@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CO2Fahrtenbuch</string>
+    <string name="action_settings">Settings</string>
+    <string name="not_support_gps">GPS nicht aktiv oder Position nicht auffindbar</string> 
+    <string name="not_support_network">Netzwerk-Provider nicht aktiv oder Position nicht auffindbar</string> 
+    <string name="saveGps">Erfassung stoppen und speichern</string>
+</resources>

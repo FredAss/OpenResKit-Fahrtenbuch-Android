@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/setStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Als Start festlegen" />
+
+    <Button
+        android:id="@+id/setEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Als Ziel festlegen" />
+
+</LinearLayout>

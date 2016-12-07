@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="flighttypes_array">
+        <item>Langstrecke</item>
+        <item>Mittelstrecke</item>
+        <item>Kurzstrecke</item>
+    </string-array>
+	<string-array name="contextoptions_array">
+        <item>Löschen</item>        
+    </string-array>    
+    <string-array name="entrytypes_array">
+        <item>Adresseingabe</item>
+        <item>Aus Adressbuch</item>
+        <item>Standortfavorit</item>
+        <item>Aktueller Standort</item>
+    </string-array>
+    <string-array name="fueltypes_array">
+        <item>Benzin</item>
+        <item>Diesel</item>
+    </string-array>
+    <string-array name="fueltypesvalues_array">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="transporttypes_array">
+        <item>Fernzug</item>
+        <item>Regionalzug</item>
+        <item>Metro</item>
+        <item>Straßenbahn</item>
+    </string-array>
+     <string-array name="cartypes_array">
+        <item>AUDI A3</item>
+		<item>Audi A6</item>
+		<item>BMW 3er</item>
+		<item>BMW 1er</item>
+		<item>Chrysler Jeep</item>
+		<item>Citroen C3</item>
+		<item>Fiat Punto</item>
+		<item>Ford Focus</item>
+		<item>Honda Civic</item>
+		<item>Mazda 3</item>
+		<item>Mercedes A-Klasse</item>
+		<item>Mercedes S-Klasse</item>
+		<item>Mini</item>
+		<item>Peugeot 308</item>
+		<item>Porsche 911</item>
+		<item>Renault Megane</item>
+		<item>Skoda Octavia</item>
+		<item>Suzuki Alto</item>
+		<item>Toyota Avensis</item>
+		<item>VW Polo</item>
+		<item>VW Golf</item>
+		<item>VW Passat</item>
+		<item>Volvo S80</item>
+    </string-array>
+    <string-array name="cartypesvalues_array">
+        <item>6.0</item>
+		<item>5.8</item>
+		<item>6.8</item>
+		<item>4.5</item>
+		<item>11.9</item>
+		<item>6.9</item>
+		<item>5.7</item>
+		<item>4.5</item>
+		<item>5.9</item>
+		<item>6.8</item>
+		<item>6.0</item>
+		<item>10.2</item>
+		<item>5.4</item>
+		<item>6.9</item>
+		<item>9.6</item>
+		<item>6.6</item>
+		<item>4.5</item>
+		<item>4.4</item>
+		<item>5.9</item>
+		<item>5.5</item>
+		<item>6.4</item>
+		<item>6.0</item>
+		<item>8.6</item>
+    </string-array>
+</resources>
